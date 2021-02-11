@@ -36,6 +36,91 @@ public class Generator
     ""maxpropscreenwidth"" ""-1""
     ""skyname"" ""sky_cs15_daylight02_hdr""";
 
+    private const string DispInfo =
+    @"dispinfo
+{
+	""power"" ""3""
+	""startposition"" ""[-5120 -1024 192]""
+	""flags"" ""0""
+	""elevation"" ""0""
+	""subdiv"" ""0""
+	normals
+	{
+		""row0"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row1"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row2"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row3"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row4"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row5"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row6"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row7"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row8"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+	}
+	distances
+	{
+		""row0"" ""0 0 0 0 0 0 0 0 0""
+		""row1"" ""0 0 0 0 0 0 0 0 0""
+		""row2"" ""0 0 0 0 0 0 0 0 0""
+		""row3"" ""0 0 0 0 0 0 0 0 0""
+		""row4"" ""0 0 0 0 0 0 0 0 0""
+		""row5"" ""0 0 0 0 0 0 0 0 0""
+		""row6"" ""0 0 0 0 0 0 0 0 0""
+		""row7"" ""0 0 0 0 0 0 0 0 0""
+		""row8"" ""0 0 0 0 0 0 0 0 0""
+	}
+	offsets
+	{
+		""row0"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row1"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row2"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row3"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row4"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row5"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row6"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row7"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+		""row8"" ""0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0""
+	}
+	offset_normals
+	{
+		""row0"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+		""row1"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+		""row2"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+		""row3"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+		""row4"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+		""row5"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+		""row6"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+		""row7"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+		""row8"" ""0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1""
+	}
+	alphas
+	{
+		""row0"" ""0 0 0 0 0 0 0 0 0""
+		""row1"" ""0 0 0 0 0 0 0 0 0""
+		""row2"" ""0 0 0 0 0 0 0 0 0""
+		""row3"" ""0 0 0 0 0 0 0 0 0""
+		""row4"" ""0 0 0 0 0 0 0 0 0""
+		""row5"" ""0 0 0 0 0 0 0 0 0""
+		""row6"" ""0 0 0 0 0 0 0 0 0""
+		""row7"" ""0 0 0 0 0 0 0 0 0""
+		""row8"" ""0 0 0 0 0 0 0 0 0""
+	}
+	triangle_tags
+	{
+		""row0"" ""9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9""
+		""row1"" ""9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9""
+		""row2"" ""9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9""
+		""row3"" ""9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9""
+		""row4"" ""9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9""
+		""row5"" ""9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9""
+		""row6"" ""9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9""
+		""row7"" ""9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9""
+	}
+	allowed_verts
+	{
+		""10"" ""-1 -1 -1 -1 -1 -1 -1 -1 -1 -1""
+	}
+}";
+
     #endregion
 
     List<string> solids = new List<string>();
@@ -75,7 +160,7 @@ public class Generator
         iSolids++;
     }
 
-    public string MakeSide(int id, Vector3 pos1, Vector3 pos2, Vector3 pos3)
+    public string MakeSide(int id, Vector3 pos1, Vector3 pos2, Vector3 pos3, bool disp)
     {
         string s = "";
         s += "side" + Environment.NewLine;
@@ -89,6 +174,10 @@ public class Generator
         s += "\"rotation\" " + "\"0\"" + Environment.NewLine;
         s += "\"lightmapscale\" " + "\"16\"" + Environment.NewLine;
         s += "\"smoothing_groups\" " + "\"0\"" + Environment.NewLine;
+        if (disp)
+        {
+            s+= DispInfo + Environment.NewLine;
+        }
 
         s += "}" + Environment.NewLine;
 
@@ -99,40 +188,52 @@ public class Generator
     {
         string s = "";
 
-        List<string> Sides = new List<string>();
-
         size = size * 0.5f;
 
         // top
-        s += MakeSide(1, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(size.Y, size.X, size.Z) + pos, new Vector3(size.Y, -size.X, size.Z) + pos);
+        s += MakeSide(1, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(size.Y, size.X, size.Z) + pos, new Vector3(size.Y, -size.X, size.Z) + pos, false);
         
         // bottom
-        s += MakeSide(2, new Vector3(-size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, size.X, -size.Z) + pos);
+        s += MakeSide(2, new Vector3(-size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, size.X, -size.Z) + pos, false);
         
         // left
-        s += MakeSide(3, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, -size.X, size.Z) + pos, new Vector3(-size.Y, -size.X, -size.Z) + pos);
+        s += MakeSide(3, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, -size.X, size.Z) + pos, new Vector3(-size.Y, -size.X, -size.Z) + pos, false);
         
         // right
-        s += MakeSide(4, new Vector3(size.Y, size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, size.Z) + pos);
+        s += MakeSide(4, new Vector3(size.Y, size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, size.Z) + pos, false);
         
         // forward
-        s += MakeSide(5, new Vector3(size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, size.X, -size.Z) + pos);
+        s += MakeSide(5, new Vector3(size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, size.X, -size.Z) + pos, false);
         
         // back
-        s += MakeSide(6, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(-size.Y, -size.X, -size.Z) + pos, new Vector3(-size.Y, -size.X, size.Z) + pos);
+        s += MakeSide(6, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(-size.Y, -size.X, -size.Z) + pos, new Vector3(-size.Y, -size.X, size.Z) + pos, false);
 
         return s;
     }
 
-    public void Displacement(int x, int y, int w, int h)
-    {
-        List<string> DispSides = new List<string>();
-    }
-
-    public string DisplacementFill(int w, int h)
+    public string MakeDisplacement(Vector3 pos, Vector3 size)
     {
         string s = "";
 
+        size = size * 0.5f;
+
+        // top
+        s += MakeSide(1, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(size.Y, size.X, size.Z) + pos, new Vector3(size.Y, -size.X, size.Z) + pos, true);
+        
+        // bottom
+        s += MakeSide(2, new Vector3(-size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, size.X, -size.Z) + pos, false);
+        
+        // left
+        s += MakeSide(3, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, -size.X, size.Z) + pos, new Vector3(-size.Y, -size.X, -size.Z) + pos, false);
+        
+        // right
+        s += MakeSide(4, new Vector3(size.Y, size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(size.Y, -size.X, size.Z) + pos, false);
+        
+        // forward
+        s += MakeSide(5, new Vector3(size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, size.X, size.Z) + pos, new Vector3(-size.Y, size.X, -size.Z) + pos, false);
+        
+        // back
+        s += MakeSide(6, new Vector3(size.Y, -size.X, -size.Z) + pos, new Vector3(-size.Y, -size.X, -size.Z) + pos, new Vector3(-size.Y, -size.X, size.Z) + pos, false);
 
         return s;
     }
