@@ -24,7 +24,7 @@ namespace ProceduralVMF
             if (File.Exists(newpath))
             {
                 Console.Write("File " + newpath + " already exists, overwrite? [y/n]: ");
-                if (Console.ReadLine() != "y")
+                if (Console.ReadLine().ToLower() != "y")
                 {
                     return;
                 }
@@ -40,6 +40,9 @@ namespace ProceduralVMF
                 goto ReAsk;
             }
 
+            Console.Write("Fill with displacements? [y/n]: ");
+            bool UseDisplacement = Console.ReadLine().ToLower() == "y";
+
             Console.WriteLine("\nAssembling map...");
             Generator generator = new Generator();
 
@@ -48,11 +51,20 @@ namespace ProceduralVMF
 
             for (int i = 1; i <= MAX_MAP_SIZE / BoxSize - 1; i++)
             {
-                generator.MakeSolid(generator.MakeCube(new Vector3((i * BoxSize) - (MAX_MAP_SIZE * 0.5f), 0, 0), new Vector3(BoxSize, BoxSize, 128)));
+                if (UseDisplacement) {
+                    generator.MakeSolid(generator.MakeDisplacement(new Vector3((i * BoxSize) - (MAX_MAP_SIZE * 0.5f), 0, 0), new Vector3(BoxSize, BoxSize, 128)));
+                } else {
+                    generator.MakeSolid(generator.MakeCube(new Vector3((i * BoxSize) - (MAX_MAP_SIZE * 0.5f), 0, 0), new Vector3(BoxSize, BoxSize, 128)));
+                }
 
                 for (int j = 1; j <= MAX_MAP_SIZE / BoxSize - 1; j++)
                 {
-                    generator.MakeSolid(generator.MakeCube(new Vector3((i * BoxSize) - (MAX_MAP_SIZE * 0.5f), (j * BoxSize) - (MAX_MAP_SIZE * 0.5f), 128), new Vector3(BoxSize, BoxSize, 128)));
+                    if (UseDisplacement) {
+                        generator.MakeSolid(generator.MakeDisplacement(new Vector3((i * BoxSize) - (MAX_MAP_SIZE * 0.5f), (j * BoxSize) - (MAX_MAP_SIZE * 0.5f), 128),
+                                                                       new Vector3(BoxSize, BoxSize, 128)));
+                    } else {
+                        generator.MakeSolid(generator.MakeCube(new Vector3((i * BoxSize) - (MAX_MAP_SIZE * 0.5f), (j * BoxSize) - (MAX_MAP_SIZE * 0.5f), 128), new Vector3(BoxSize, BoxSize, 128)));
+                    }
                 }
             }
 
